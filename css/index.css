@@ -31,7 +31,7 @@ header {
 }
 
 /* Main */
-section {
+section.content {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -41,23 +41,34 @@ section {
   font-size: 1.5rem;
   color: rgba(255, 255, 255, 0.729);
   font-family: 'Poiret One', sans-serif;
+  background-size: cover;
+  height: 100vh;
 }
 
-section h2 {
+section.content h2 {
   color: darkred;
   font-family: 'Spirax', sans-serif;
   font-size: 6rem;
+  margin-top: 8rem;
 }
 
-section p {
+section.content p {
   background-color: rgba(139, 0, 0, 0.8);
-  padding: 1.5rem;
+  padding: 1.2rem;
   width: 50%;
 }
 
-section ul {
+section.content p.first-paragraph {
+  margin-right: 8rem;
+}
+
+section.content p.second-paragraph {
+  margin-left: 8rem;
+}
+
+section.content ul {
   list-style: none;
-  padding: 1.5rem;
+  padding: 1.2rem;
   margin: 0;
   background-color: rgba(0, 0, 0, 0.8);
   width: 50%;
@@ -65,20 +76,8 @@ section ul {
   li {
     display: flex;
     justify-content: space-between;
+    padding: 0 2rem;
   }
-}
-
-section p.first-paragraph {
-  margin-right: 8rem;
-}
-
-section p.second-paragraph {
-  margin-left: 8rem;
-}
-
-section.content {
-  background-size: cover;
-  height: 100vh;
 }
 
 section#hot {
