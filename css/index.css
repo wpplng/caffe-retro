@@ -16,8 +16,6 @@ header {
   background-color: rgba(0, 0, 0, 0.7);
   padding: 1rem;
   position: fixed;
-  top: 0;
-  left: 0;
   width: 100%;
   font-family: 'Spirax', sans-serif;
 
@@ -30,8 +28,7 @@ header {
   a {
     color: white;
     text-decoration: none;
-    margin-right: 2rem;
-    margin-left: 2rem;
+    margin: 0 2rem;
     text-align: center;
     font-size: 2.5rem;
   }
@@ -65,14 +62,15 @@ section.content p {
   background-color: rgba(139, 0, 0, 0.8);
   padding: 1.2rem;
   width: 50%;
+  position: relative;
 }
 
 section.content p.first-paragraph {
-  margin-right: 8rem;
+  right: 4rem;
 }
 
 section.content p.second-paragraph {
-  margin-left: 8rem;
+  left: 4rem;
 }
 
 section.content ul {
@@ -108,27 +106,24 @@ section#cosy {
   section.content {
     font-size: 1.1rem;
     justify-content: center;
-    gap: 1rem;
+    gap: 1.2rem;
     background-position: center;
   }
 
   section.content h1 {
-    font-size: 5rem;
+    font-size: 4.5rem;
     margin-top: 0;
   }
 
   section.content p {
     padding: 1rem;
     width: 80%;
+    position: static;
   }
 
   section.content ul {
     padding: 1rem 0.8rem;
     width: 80%;
-  }
-
-  section.content p.first-paragraph {
-    margin-right: 0;
   }
 
   section.content p.second-paragraph {
