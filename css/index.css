@@ -131,3 +131,9 @@ section#cosy {
     display: none;
   }
 }
+
+@media screen and (max-width: 320px) {
+  section.content {
+    font-size: 0.9rem;
+  }
+}
