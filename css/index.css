@@ -18,6 +18,7 @@ header {
   position: fixed;
   width: 100%;
   font-family: 'Spirax', sans-serif;
+  z-index: 1;
 
   nav {
     display: flex;
