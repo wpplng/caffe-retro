@@ -37,7 +37,7 @@ section.content {
   justify-content: space-evenly;
   align-items: center;
   text-align: center;
-  padding: 2rem;
+  padding: 1rem;
   font-size: 1.5rem;
   color: rgba(255, 255, 255, 0.729);
   font-family: 'Poiret One', sans-serif;
@@ -45,11 +45,11 @@ section.content {
   height: 100vh;
 }
 
-section.content h2 {
+section.content h1 {
   color: darkred;
   font-family: 'Spirax', sans-serif;
   font-size: 6rem;
-  margin-top: 8rem;
+  margin-top: 6rem;
 }
 
 section.content p {
