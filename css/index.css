@@ -13,7 +13,7 @@ body {
 
 /* Header */
 header {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(29, 20, 24, 0.848);
   padding: 1rem;
   position: fixed;
   width: 100%;
@@ -39,7 +39,8 @@ header {
 section.content {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 2rem;
   align-items: center;
   text-align: center;
   padding: 1rem;
@@ -106,7 +107,6 @@ section#cosy {
 
   section.content {
     font-size: 1.1rem;
-    justify-content: center;
     gap: 1.2rem;
     background-position: center;
   }
